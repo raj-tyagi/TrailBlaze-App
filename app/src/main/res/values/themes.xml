@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TrailBlazeApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#233736</item>
+        <item name="colorPrimaryVariant">#233736</item>
+    </style>
+
+    <style name="Theme.TrailBlazeApp" parent="Base.Theme.TrailBlazeApp" />
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sensor"
+
+    android:padding="16dp"
+    tools:context=".LightSensorActivity">
+
+    <!-- TextView at the top center -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIGHT SENSOR"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <!-- Sensor Output TextView -->
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:text="Sensor Output Value: "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

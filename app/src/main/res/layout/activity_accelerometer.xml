@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/sensor"
+    tools:context=".AccelerometerActivity">
+
+    <!-- TextView for the title -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACCELEROMETER"
+        android:textSize="37dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <!-- TextView for Acceleration X -->
+    <TextView
+        android:id="@+id/textViewX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="Acceleration X: "
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <!-- TextView for Acceleration Y -->
+    <TextView
+        android:id="@+id/textViewY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewX"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Acceleration Y: "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for Acceleration Z -->
+    <TextView
+        android:id="@+id/textViewZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Acceleration Z: "
+        android:textColor="#f5f5f5"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for Suggestions -->
+    <TextView
+        android:id="@+id/textViewSuggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewZ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Suggestions: "
+        android:textColor="#f5f5f5"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

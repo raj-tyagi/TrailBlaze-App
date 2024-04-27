@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/sensor"
+    tools:context=".MainActivity">
+
+
+    <!-- TextView at the top center -->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="TrailBlaze: The Inbuilt Sensor Utilizer"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/buttonAccelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#009688"
+        android:text="Tap for Motion Insights"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonLightSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAccelerometer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#009688"
+        android:text="Tap for Ambient Light Reading"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonTemperatureSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLightSensor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#009688"
+        android:text="Tap Temperature Readout"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBarometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonTemperatureSensor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#009688"
+        android:text="Tap to check altitude"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <!-- Button for Proximity Sensor -->
+    <Button
+        android:id="@+id/buttonProximitySensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBarometer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#009688"
+        android:text="Tap for Proximity Output"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <!-- Button for Location Finder -->
+    <Button
+        android:id="@+id/buttonLocationFinder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonProximitySensor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#009688"
+        android:text="Tap to get Location "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
