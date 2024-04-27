@@ -12,12 +12,12 @@ Welcome to the TrailBlaze App repository! This Android application utilizes devi
 
 ## Specifications
 
-  -**Accelerometer**: Monitor device acceleration and provide suggestions based on movement.
-  -**Barometer**: Measure atmospheric pressure and offer weather-related insights.
-  -**Proximity Sensor**: Detect nearby objects and trigger actions accordingly.
-  -**Temperature Sensor**: Monitor ambient temperature and provide energy-saving suggestions.
-  -**Location Using Geocoder**: Retrieve the user's location information including latitude, longitude, address, and more using Geocoder.
-  -**User-Friendly Interface**: Intuitive UI for easy interaction and data visualization.
+- **Accelerometer**: Monitor device acceleration and provide suggestions based on movement.
+- **Barometer**: Measure atmospheric pressure and offer weather-related insights.
+- **Proximity Sensor**: Detect nearby objects and trigger actions accordingly.
+- **Temperature Sensor**: Monitor ambient temperature and provide energy-saving suggestions.
+- **Location Using Geocoder**: Retrieve the user's location information including latitude, longitude, address, and more using Geocoder.
+- **User-Friendly Interface**: Intuitive UI for easy interaction and data visualization.
 
 ## Getting Started
 
