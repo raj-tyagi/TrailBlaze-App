@@ -41,6 +41,7 @@ Ensure you have the following prerequisites installed:
     <img src="https://github.com/raj-tyagi/TrailBlaze-App/assets/110656539/9a1594ab-28a8-463d-979d-b7447eaec79e" alt="Screenshot 2" width="180" style="margin-right: 10px;">
     <img src="https://github.com/raj-tyagi/TrailBlaze-App/assets/110656539/362e04da-4762-4996-822d-a31c09e4d5e0" alt="Screenshot 3" width="180" style="margin-right: 10px;">
     <img src="https://github.com/raj-tyagi/TrailBlaze-App/assets/110656539/5774e374-2999-4b51-95e7-f2ee29f8049a" alt="Screenshot 4" width="180" style="margin-right: 10px;">
+    <img src="https://github.com/raj-tyagi/TrailBlaze-App/assets/110656539/01891f59-d2c3-4f64-ab1e-0d266d642832" alt="Screenshot 5" width="180" style="margin-right: 10px;">
 </div>
 
 
