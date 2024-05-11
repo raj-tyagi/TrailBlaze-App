@@ -1,6 +1,6 @@
 # TrailBlaze App
 
-Welcome to the TrailBlaze App repository! This Android application utilizes device sensors to provide insights on acceleration, atmospheric pressure, proximity, temperature, and location using Geocoder.
+Welcome to the TrailBlaze App repository! This Android application utilizes device sensors to provide insights on acceleration, atmospheric pressure, proximity, temperature, and location using Geocoder. 
 
 ## Features
 
